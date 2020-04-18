@@ -140,6 +140,7 @@ padding-bottom: 3%;
   text-align: center;
   padding: 100px;
   background-color: #ff4c68;
+  color: #fff;
 }
 
 #footer{
@@ -149,4 +150,16 @@ padding-bottom: 3%;
 
 .ss{
   margin:8px;
+}
+
+@media (max-width:1000px)
+{
+  #title{
+      text-align: center;
+  }
+  .title-img{
+    position:static;
+    transform:rotate(0deg);
+
+  }
 }
